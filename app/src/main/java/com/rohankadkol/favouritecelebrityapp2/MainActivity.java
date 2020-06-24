@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    Button mButton;
+    // TODO-9: Add a variable called mButton of type Button
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onButtonClick(View view) {
-        Toast.makeText(this, "Hello Rohan!", Toast.LENGTH_SHORT).show();
-    }
+    // TODO-10: Add a OnClickListener: Create a method called onButtonClick(View view)
+        // TODO-11: Toast a message like, "Hello <your name>!"
 }

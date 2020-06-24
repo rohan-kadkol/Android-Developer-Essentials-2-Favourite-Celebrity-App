@@ -6,25 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556"
-        app:srcCompat="@drawable/conan_o_brien" />
-
-    <Button
-        android:id="@+id/button"
+    <!--TODO-1: Delete the TextView-->
+    <!--TODO-2: Download your favourite celebrity's image-->
+    <!--TODO-3: Save this image in the drawable folder-->
+    <!--TODO-4: Add an ImageView-->
+    <!--TODO-5: Set the src of the ImageView to the image you downloaded-->
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="See what Conan has to say"
+        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--TODO-6: Add a Button-->
+    <!--TODO-7: Constraint it to the bottom center of the screen-->
+    <!--TODO-8: Change its text to something like, "See what <Celebrity> has to say"-->
+
+    <!--TODO-12: Add the method you just created to the onClick attribute-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>

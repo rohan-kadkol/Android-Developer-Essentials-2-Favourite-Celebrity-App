@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">See what Conan Says</string>
+    <!--Change the app_name to somtehing like, "What <Celebtrity> has to say?"-->
+    <string name="app_name">FavouriteCelebrityApp2</string>
 </resources>
