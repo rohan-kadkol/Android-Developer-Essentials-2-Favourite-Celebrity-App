@@ -12,7 +12,7 @@ If so, good news! We're going to make an app that lets your favourite celebrity 
 
 ### Screenshots
 <br>
-<img src="images/solution.png">
+<img src="images/solution.gif">
 
 <br>
 <br>
